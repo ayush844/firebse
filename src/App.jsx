@@ -6,6 +6,7 @@ import {app} from './firebase'
 import Signup from './pages/Signup';
 
 import './App.css'
+import Signin from './pages/Signin';
 
 const auth = getAuth(app);
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <Signup/>
+      <Signin />
     </>
   )
 }
